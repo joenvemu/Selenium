@@ -10,7 +10,7 @@ public class TestSelenium {
 		String exePath = "./drivers/chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.com");
+		driver.get("https://www.cooltesters.com/");
 	}
 
 }
